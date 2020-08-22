@@ -1,0 +1,369 @@
+PODS:
+  - Adjust (4.11.5):
+    - Adjust/Core (= 4.11.5)
+  - Adjust/Core (4.11.5)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AppLovinSDK (6.11.1)
+  - AWSCognito (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - AWSDynamoDB (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSS3 (2.4.16):
+    - AWSCore (= 2.4.16)
+  - BCMeshTransformView (0.9)
+  - Branch (0.30.0):
+    - Branch/Core (= 0.30.0)
+  - Branch/Core (0.30.0)
+  - Core (0.1.0):
+    - Networking
+  - Fabric (1.9.0)
+  - Firebase/Analytics (6.23.0):
+    - Firebase/Core
+  - Firebase/Auth (6.23.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.5.2)
+  - Firebase/Core (6.23.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.4.2)
+  - Firebase/CoreOnly (6.23.0):
+    - FirebaseCore (= 6.6.7)
+  - Firebase/Crashlytics (6.23.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.0.0)
+  - Firebase/Messaging (6.23.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.3.1)
+  - FirebaseAnalytics (6.4.2):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.2)
+    - GoogleAppMeasurement (= 6.4.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuth (6.5.3):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.6.7):
+    - FirebaseCoreDiagnostics (~> 1.2)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.2.4):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 3.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseCrashlytics (4.0.0):
+    - FirebaseAnalyticsInterop (~> 1.2)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleDataTransport (~> 6.0)
+    - GoogleDataTransportCCTSupport (~> 3.0)
+    - nanopb (~> 0.3.901)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (1.3.0):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.3.4):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebaseMessaging (4.3.1):
+    - FirebaseAnalyticsInterop (~> 1.5)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Reachability (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseUI/Auth (8.4.0):
+    - Firebase/Auth (~> 6.0)
+    - GoogleUtilities/UserDefaults
+  - FirebaseUI/Phone (8.4.0):
+    - FirebaseUI/Auth
+  - FLAnimatedImage (1.0.12)
+  - GoogleAppMeasurement (6.4.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (6.2.1)
+  - GoogleDataTransportCCTSupport (3.0.0):
+    - GoogleDataTransport (~> 6.0)
+    - nanopb (~> 0.3.901)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - GZIP (1.3.0)
+  - JHChainableAnimations (1.3.0)
+  - JSONModel (1.8.0)
+  - libPhoneNumber-iOS (0.9.10)
+  - Lightstreamer_iOS_Client (4.2.1)
+  - lottie-ios (2.1.5)
+  - MBCircularProgressBar (0.3.5)
+  - MBProgressHUD (1.0.0)
+  - MZTimerLabel (0.5.4)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - Networking (0.1.0)
+  - OpenTok (2.14.2)
+  - PromisesObjC (1.2.10)
+  - Protobuf (3.13.0)
+  - PubNub (4.7.7):
+    - PubNub/Core (= 4.7.7)
+  - PubNub/Core (4.7.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SDWebImage/GIF (4.0.0):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SnapSDK/SCSDKCreativeKit (1.3.1)
+  - SSZipArchive (2.1.1)
+  - Stripe (18.2.0)
+  - TapjoySDK (12.2.0)
+  - THContactPicker (2.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Adjust (~> 4.11.4)
+  - AFNetworking (from `https://github.com/kiwipvt/AFNetworking.git`, branch `master`)
+  - AppLovinSDK (= 6.11.1)
+  - AWSCognito (= 2.4.16)
+  - AWSDynamoDB (= 2.4.16)
+  - AWSS3 (= 2.4.16)
+  - BCMeshTransformView (= 0.9)
+  - Branch (= 0.30.0)
+  - Core (from `DevPods/Core`)
+  - Fabric (= 1.9.0)
+  - Firebase/Analytics
+  - Firebase/Auth (= 6.23.0)
+  - Firebase/Core (= 6.23.0)
+  - Firebase/Crashlytics
+  - Firebase/Messaging (= 6.23.0)
+  - FirebaseUI/Phone (= 8.4.0)
+  - GoogleSignIn (= 5.0.2)
+  - GZIP (~> 1.2)
+  - JHChainableAnimations (~> 1.3.0)
+  - JSONModel (= 1.8.0)
+  - libPhoneNumber-iOS (= 0.9.10)
+  - Lightstreamer_iOS_Client (= 4.2.1)
+  - lottie-ios (~> 2.1.3)
+  - MBCircularProgressBar (= 0.3.5)
+  - MBProgressHUD (~> 1.0.0)
+  - MZTimerLabel (= 0.5.4)
+  - Networking (from `DevPods/Networking`)
+  - OpenTok (~> 2.14.1)
+  - PubNub (from `https://github.com/kiwipvt/objective-c-kiwiup.git`, branch `master`)
+  - SDWebImage (= 4.0)
+  - SDWebImage/GIF (= 4.0.0)
+  - SnapSDK/SCSDKCreativeKit (= 1.3.1)
+  - SSZipArchive (= 2.1.1)
+  - Stripe (= 18.2.0)
+  - TapjoySDK (= 12.2.0)
+  - THContactPicker (~> 2.0)
+  - TwitterKit (= 3.4.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Adjust
+    - AppAuth
+    - AppLovinSDK
+    - AWSCognito
+    - AWSCore
+    - AWSDynamoDB
+    - AWSS3
+    - BCMeshTransformView
+    - Branch
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseUI
+    - FLAnimatedImage
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - GZIP
+    - JHChainableAnimations
+    - JSONModel
+    - libPhoneNumber-iOS
+    - Lightstreamer_iOS_Client
+    - lottie-ios
+    - MBCircularProgressBar
+    - MBProgressHUD
+    - MZTimerLabel
+    - nanopb
+    - OpenTok
+    - PromisesObjC
+    - Protobuf
+    - SDWebImage
+    - SnapSDK
+    - SSZipArchive
+    - Stripe
+    - TapjoySDK
+    - THContactPicker
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :branch: master
+    :git: https://github.com/kiwipvt/AFNetworking.git
+  Core:
+    :path: DevPods/Core
+  Networking:
+    :path: DevPods/Networking
+  PubNub:
+    :branch: master
+    :git: https://github.com/kiwipvt/objective-c-kiwiup.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 75b1151bc4f6fd942f463464e0555e88fc3cc595
+    :git: https://github.com/kiwipvt/AFNetworking.git
+  PubNub:
+    :commit: 81ed23765270b85975bd1a21a47932d3d922eb34
+    :git: https://github.com/kiwipvt/objective-c-kiwiup.git
+
+SPEC CHECKSUMS:
+  Adjust: 4d8e3830da125a270705188250c3ba86b544ebb7
+  AFNetworking: ef6403a1383e5a6fa4ca961d7d524b1898ce0a84
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AppLovinSDK: 604c3120850d65f1a5c708d51a86326a52f083f5
+  AWSCognito: 666dba6eb65ac27faad79e83febf25630913aefc
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSDynamoDB: e6fc88dca72b2efee4492729d96ed945b9f3a224
+  AWSS3: fef6aa8f8f625df8f67f1b6574fe761f3a4ddc99
+  BCMeshTransformView: 25134f0d2f37f37a6189eafca1e2ae97172e069c
+  Branch: a859de0efd1fbbb4e52733714542afb2c08174ec
+  Core: 1bb978440149118d6c2d3763d4f7cbb3696e5453
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Firebase: 585ae467b3edda6a5444e788fda6888f024d8d6f
+  FirebaseAnalytics: 558f7a03d19de451093032c806f39d5f9dff096e
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuth: 7047aec89c0b17ecd924a550c853f0c27ac6015e
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: a2788a0d5f6c1dff17b8f79b4a73654a8d4bfdbd
+  FirebaseCoreDiagnostics: b59c024493a409f8aecba02c99928d0d8431d159
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseCrashlytics: 941608d2a3475b48fb7010b998703d07696b8db1
+  FirebaseInstallations: 6f5f680e65dc374397a483c32d1799ba822a395b
+  FirebaseInstanceID: cef67c4967c7cecb56ea65d8acbb4834825c587b
+  FirebaseMessaging: 828e66eb357a893e3cebd9ee0f6bc1941447cc94
+  FirebaseUI: 433550cb9e3d03ec7ee2c25f87493f76358d9b68
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleAppMeasurement: 2253e99c1f22638cf234c059144660c338ad76c3
+  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
+  GoogleDataTransportCCTSupport: 0f39025e8cf51f168711bd3fb773938d7e62ddb5
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  GZIP: 416858efbe66b41b206895ac6dfd5493200d95b3
+  JHChainableAnimations: 22085fcb04ca87349e584573558e637f659fd769
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  libPhoneNumber-iOS: f721ae4d5854bce60934f9fb9b0b28e8e68913cb
+  Lightstreamer_iOS_Client: a35bd2a363ba9ea9d71b7accf21e9dc46b720ae4
+  lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  Networking: 8cf00382d233ad6bfee35e14d07c00edf6c96147
+  OpenTok: 25a73c71b09bad87fc249b9a1f182f1b0306ad28
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  PubNub: 3493f9dd62b6d07579ddae5183ab0a0f2ac54091
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapSDK: be510aaabbfa7ab0142b53770f2e79c6c6b363e6
+  SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
+  Stripe: a468d5f39703807e840fdfed39572ffad0aaf053
+  TapjoySDK: f5b3711c12205bbfbda3b95179072c8a9b5fcf09
+  THContactPicker: 4345c81a407af534e5f618d495e8fb422a911c10
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: b674c2177db903e269a47468c3a1e886102a955d
+
+COCOAPODS: 1.9.3
